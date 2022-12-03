@@ -1,0 +1,98 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(223, 101, 184);
+  block-size: 50px 50px;
+  background-image: url("bkg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.container {
+  background-color: rgb(250, 228, 239);
+  width: 50%;
+  margin: 250px;
+  margin-left: 350px;
+  margin-top: 50px;
+  min-height: 150vh;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+.button{
+  padding: 10px;
+  border: 1px solid rgba(187, 7, 94, 0.923);
+  font: 100 1.1rem sans-serif;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px;
+}
+button {
+    background-color: rgba(0, 0, 0, 0.714);
+    color: rgb(189, 136, 174);
+    cursor: pointer;
+    width: 60px;
+    border-radius: 9px;
+}
+  
+button:hover {
+    background-color: rgb(120, 11, 67);
+}
+  
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea,
+button {
+  top: 30px;
+  padding: 10px;
+  border: 1px solid rgba(181, 219, 228, 0.923);
+  font: 100 1.1rem sans-serif;
+  border-radius: 5px;
+  outline: none;
+  margin: 10px;
+}
+
+.task {
+  background-color: rgba(156, 17, 121, 0.523);
+  font: 100 1.1rem sans-serif;
+  padding: 6px;
+  margin: 1vmax;
+  color: rgba(0, 0, 0, 0.868);
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.task > div {
+  width: 100%;
+}
+.task span {
+  color: rgba(0, 0, 0, 0.632);
+}
+.deleteBtn {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(94, 74, 74);
+}
+footer{
+color: rgb(0, 0, 0);
+position: center;
+size: 50px;
+margin-bottom:50px;
+margin-left: 50px;
+}
