@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    background-image: url(calc.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   }
+   .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 90px;
+   }
+   #container {
+    width: 300px;
+    height: 450px;
+    padding: 20px 20px 20px 20px;
+    border-radius:10px ;
+    background-color: rgb(0, 0, 0); }
+   #display {
+    display: block;
+    margin: 25px auto;
+    height: 62px;
+    width: 225px;
+    padding: 0 10px;
+    background-color: rgb(255, 255, 255);
+    font-size: 28px;
+    color: rgb(123, 121, 0);
+    text-align: right;
+    font-weight: 400;
+   }
+   .button {
+    display: inline-block;
+    background-color: rgb(238, 157, 43);
+    margin-top: 12px;
+    margin-left:20px;
+    width: 48px;
+    border-radius: 4px;
+    height: 52px;
+    font-size: 22px;
+    font-weight:initial;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+   }
+   .mathButtons {
+    margin: 5px 3px 2px 17px;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    background-color:#f3ec6e;
+    border-radius: 80%;
+    block-size: 50px;
+   }
+   .digits {
+    color:#000000;
+    background-color: #ffffff; 
+    border-radius: 80%;
+    block-size: 50px;
+   }
+   .digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+ background-color:#676202db;
+ transition: 0.3s;
+}
+#clearButton {
+    color: rgb(187, 7, 19);  
+   }
+footer{
+    margin-right:5% ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    color:rgb(181, 161, 4);
+    text-align: right;
+}
+.equalButtons:hover{
+    background-color:#676202db;
+    transition: 0.3s;
+}
